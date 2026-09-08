@@ -1,0 +1,75 @@
+body{
+    background-color: #1e2836;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.generateText{
+    color: #fdfeff;
+    margin-bottom: 1px;
+}
+
+.titleBox{
+    margin-top: 100px;
+}
+
+.randomPasswordText{
+    color: #4fde8a;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+.paragraphText{
+    color: #c7ccd5;
+    margin-top: 3px;
+}
+
+.generateButton{
+    background-color: #0eba81;
+    color: #a1f2da;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 25px;
+    border-radius: 3px;
+    font-size: small;
+}
+
+.dividingLine{
+    background-color: #27354a;
+    height: 2px;
+    width: 325px;
+}
+
+
+.passwordSpaceLeft{
+    height: 30px;
+    width: 130px;
+    background-color: #27354a;
+    padding-left: 25px;
+    padding-top: 5px;
+    color: #0eba81;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.passwordSpaceRight{
+    height: 30px;
+    width: 130px;
+    background-color: #27354a;
+    margin-left: 50px;
+    padding-left: 25px;
+    padding-top: 5px;
+    color: #0eba81;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+
+.passwordsBox{
+    display: flex;
+}
