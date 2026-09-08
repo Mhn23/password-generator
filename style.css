@@ -38,6 +38,14 @@ body{
     border-radius: 3px;
     font-size: small;
 }
+.generateButton:hover{
+    background-color:#3e8e41;
+}
+.generateButton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #665;
+    transform: translateY(4px);
+}
 
 .dividingLine{
     background-color: #27354a;
