@@ -11,28 +11,35 @@ const passwordCharacters = [
   '-', '=', '[', ']', '{', '}', ';', ':', ',', '.', '<', '>', '?', '/'
 ];
 const passwordEl = document.getElementById("passwordElement")
-const passwordRightEl = document.getElementById("passwordRightElement")
 let passwordLength = 10
+let password = ""
 
 function passwordLengthSet(length){
     passwordLength = length
 }
 
 function showPasswords(){
-    let password = generatePassword()
+    generatePassword()
     passwordEl.textContent = password
 }
 
 function generatePassword(){
+    password = ""
     let index = 0
-    let password = ""
     for(let characters = 0; characters < passwordLength; characters++){
         index = getRandomIndex()
         password += passwordCharacters[index]
     }
-    return password
 }
 
 function getRandomIndex(){
     return Math.floor(Math.random()*passwordCharacters.length )
 }
+
+
+passwordEl.addEventListener("click",function(){
+    if(password != ""){
+        navigator.clipboard.writeText(password)
+        alert("The password has been copied ")
+    }
+})
