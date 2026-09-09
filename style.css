@@ -39,7 +39,6 @@ body{
     padding-right: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-top: 25px;
     border-radius: 3px;
     font-size: small;
 }
@@ -48,8 +47,8 @@ body{
 }
 .generateButton:active{
     background-color: #3e8e41;
-    box-shadow: 0 5px #665;
-    transform: translateY(4px);
+    box-shadow: 0 3px #665;
+    transform: translateY(2px);
 }
 
 .dividingLine{
@@ -68,10 +67,38 @@ body{
     color: #0eba81;
     font-size: medium;
     box-sizing: border-box;
-    margin-left: 60px;
 }
 
 
 .passwordsBox{
     display: flex;
+    justify-content: center;
+}
+
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.lengthButton{
+    border: 0;
+    border-radius: 5px;
+    background-color: #27354a;
+    color: #a1f2da;
+    height: 30px;
+    width: 40px;
+}
+
+.lengthButton:hover{
+    background-color: gray;
+}
+
+.lengthButton:active{
+    background-color: gray;
+    box-shadow: 0 2px #665;
+    transform: translateY(1px);
 }
