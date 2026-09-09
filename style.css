@@ -43,10 +43,10 @@ body{
     font-size: small;
 }
 .generateButton:hover{
-    background-color:#3e8e41;
+    background-color:#0c9e6e;
 }
 .generateButton:active{
-    background-color: #3e8e41;
+    background-color: #0c9e6e;
     box-shadow: 0 3px #665;
     transform: translateY(2px);
 }
@@ -98,11 +98,11 @@ body{
 }
 
 .lengthButton:hover{
-    background-color: gray;
+    background-color: #31445e;
 }
 
 .lengthButton:active{
-    background-color: gray;
+    background-color: #31445e;
     box-shadow: 0 2px #665;
     transform: translateY(1px);
 }
