@@ -12,6 +12,7 @@ const passwordCharacters = [
 ];
 const passwordLeftEl = document.getElementById("passwordLeftElement")
 const passwordRightEl = document.getElementById("passwordRightElement")
+let passwordLength = 8
 
 function showPasswords(){
     let passwordLeft = generatePassword()
@@ -23,7 +24,7 @@ function showPasswords(){
 function generatePassword(){
     let index = 0
     let password = ""
-    for(let characters = 0; characters < 8; characters++){
+    for(let characters = 0; characters < passwordLength; characters++){
         index = getRandomIndex()
         password += passwordCharacters[index]
     }
