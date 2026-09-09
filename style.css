@@ -70,6 +70,10 @@ body{
     padding-top: 4px;
 }
 
+.passwordSpace:hover{
+    color: #0a885e;
+}
+
 
 .passwordsBox{
     display: flex;
