@@ -12,7 +12,11 @@ const passwordCharacters = [
 ];
 const passwordEl = document.getElementById("passwordElement")
 const passwordRightEl = document.getElementById("passwordRightElement")
-let passwordLength = 8
+let passwordLength = 10
+
+function passwordLengthSet(length){
+    passwordLength = length
+}
 
 function showPasswords(){
     let password = generatePassword()

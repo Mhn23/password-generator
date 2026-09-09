@@ -102,3 +102,7 @@ body{
     box-shadow: 0 2px #665;
     transform: translateY(1px);
 }
+
+.passLength{
+    color: #fdfeff;;
+}

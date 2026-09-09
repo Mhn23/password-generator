@@ -9,12 +9,13 @@
             <h1 class="generateText">Generate a</h1>
             <h1 class="randomPasswordText">random password</h1>
             <p class="paragraphText">Never use an insecure password again</p>
+            <button class="generateButton" onclick="showPasswords()">Generate Passwords</button>
             <div class="Buttons">
-                <button class="generateButton" onclick="showPasswords()">Generate Passwords</button>
-                <button class="lengthButton">8</button>
-                <button class="lengthButton">10</button>
-                <button class="lengthButton">12</button>
-                <button class="lengthButton">14</button>
+                <p class="passLength">Password length:</p>
+                <button class="lengthButton" onclick="passwordLengthSet(8)">10</button>
+                <button class="lengthButton" onclick="passwordLengthSet(10)">12</button>
+                <button class="lengthButton" onclick="passwordLengthSet(12)">14</button>
+                <button class="lengthButton" onclick="passwordLengthSet(14)">16</button>
             </div>
             <p class="dividingLine"></p>
             <div class="passwordsBox">
