@@ -10,15 +10,13 @@ const passwordCharacters = [
   '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+',
   '-', '=', '[', ']', '{', '}', ';', ':', ',', '.', '<', '>', '?', '/'
 ];
-const passwordLeftEl = document.getElementById("passwordLeftElement")
+const passwordEl = document.getElementById("passwordElement")
 const passwordRightEl = document.getElementById("passwordRightElement")
 let passwordLength = 8
 
 function showPasswords(){
-    let passwordLeft = generatePassword()
-    let passwordRight = generatePassword()
-    passwordLeftEl.textContent = passwordLeft
-    passwordRightEl.textContent = passwordRight
+    let password = generatePassword()
+    passwordEl.textContent = password
 }
 
 function generatePassword(){

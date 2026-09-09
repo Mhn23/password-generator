@@ -59,27 +59,16 @@ body{
 }
 
 
-.passwordSpaceLeft{
+.passwordSpace{
     height: 30px;
-    width: 130px;
+    width: 200px;
     background-color: #27354a;
     padding-left: 25px;
     padding-top: 5px;
     color: #0eba81;
     font-size: medium;
     box-sizing: border-box;
-}
-
-.passwordSpaceRight{
-    height: 30px;
-    width: 130px;
-    background-color: #27354a;
-    margin-left: 50px;
-    padding-left: 25px;
-    padding-top: 5px;
-    color: #0eba81;
-    font-size: medium;
-    box-sizing: border-box;
+    margin-left: 60px;
 }
 
 
