@@ -13,6 +13,7 @@ const passwordCharacters = [
 const passwordEl = document.getElementById("passwordElement")
 let passwordLength = 10
 let password = ""
+const passHistoryUlEl = document.getElementById("password-history-ul-el")
 
 function passwordLengthSet(length){
     passwordLength = length
@@ -21,6 +22,11 @@ function passwordLengthSet(length){
 function showPasswords(){
     generatePassword()
     passwordEl.textContent = password
+    addPasswordToHistory()
+}
+
+function addPasswordToHistory(){
+    passHistoryUlEl.innerHTML += `<li>${password}</li>`
 }
 
 function generatePassword(){

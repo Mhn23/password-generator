@@ -108,5 +108,10 @@ body{
 }
 
 .passLength{
-    color: #fdfeff;;
+    color: #d8dbdf;;
+}
+
+.passwordHistory{
+    color: #e5e7e8;
+    text-align: center;
 }
