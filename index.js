@@ -26,7 +26,7 @@ function showPasswords(){
 }
 
 function addPasswordToHistory(){
-    passHistoryUlEl.innerHTML += `<li>${password}</li>`
+    passHistoryUlEl.innerHTML += `<li class="passHistoryList">${password}</li>`
 }
 
 function generatePassword(){

@@ -115,3 +115,14 @@ body{
     color: #e5e7e8;
     text-align: center;
 }
+
+.passHistoryUl{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    color: #0b9f6d;
+}
+
+.passHistoryList{
+    padding-bottom: 7px;
+}
